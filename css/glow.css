@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/* CSS Document */
+.box {
+    background: #1c1c1c;
+    color: #0099ff;
+    display: block;
+    margin: 20px;
+    text-align: center;
+	-moz-box-shadow: 0px 0px 5px #009999;
+    -webkit-box-shadow: 0px 0px 5px #009999;
+    box-shadow: 0px 0px 5px #009999;
+    /*Transition*/
+    -webkit-transition: -webkit-box-shadow 0.5s ease-out;;
+    -moz-transition: -moz-box-shadow 0.5s ease-out;
+    -o-transition: box-shadow 0.5s ease-out;
+}
+ 
+.box:hover {
+    -moz-box-shadow: 0px 0px 15px #3399FF;
+    -webkit-box-shadow: 0px 0px 15px #3399FF;
+    box-shadow: 0px 0px 15px #3399FF;
+}
